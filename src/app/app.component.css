@@ -1,0 +1,15 @@
+.navbar {
+  margin-bottom: 0;
+  background-color: rgba(8, 8, 8, 0.8);
+  border: none;
+}
+.navbar.navbar-default .navbar-nav > li > a, .navbar.navbar-default .navbar-header .navbar-brand {
+  font-family: "Cantarell", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  color: #FEFDEB;
+}
+.navbar.navbar-default .navbar-nav > li > a:hover, .navbar.navbar-default .navbar-nav > li > a:focus, .navbar.navbar-default .navbar-nav > li > a:active, .navbar.navbar-default .navbar-header .navbar-brand:hover, .navbar.navbar-default .navbar-header .navbar-brand:focus, .navbar.navbar-default .navbar-header .navbar-brand:active {
+  color: #48A09B;
+}
